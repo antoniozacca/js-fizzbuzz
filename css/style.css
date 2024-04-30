@@ -1,6 +1,9 @@
 ul{
     list-style: none;
 }
+li{
+    border: 10px solid black;
+}
 .bg-midnight-green{
     background-color: #083B4Cff;
 }
@@ -16,6 +19,29 @@ ul{
 .bg-bright-pink-crayola{
     background-color: #F0466Fff;
 }
-h1{
-    font-size: 50px;
+
+
+@media screen and (min-width:100px){
+    li{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:400px){
+    li{
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width:768px){
+    li{
+        width: 25%;
+    }
+    
+}
+@media screen and (min-width:1000px){
+    li{
+        width: calc(100%/5);
+    }
+    
 }
