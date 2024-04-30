@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+.bg-midnight-green{
+    background-color: #083B4Cff;
+}
+.bg-blue-ncs{
+    background-color: #1389B2ff;
+}
+.bg-emerald{
+    background-color: #0CD6A1ff;
+}
+.bg-sunglow{
+    background-color: #FFD166ff;
+}
+.bg-bright-pink-crayola{
+    background-color: #F0466Fff;
+}
+h1{
+    font-size: 50px;
+}
